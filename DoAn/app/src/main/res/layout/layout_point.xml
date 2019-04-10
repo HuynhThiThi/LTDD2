@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".PointActivity"
+    android:background="@drawable/bg">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblName"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/app_name"/>
+
+        <TextView
+
+            android:id="@+id/tVPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POINT:"
+            android:textColor="#ffff"
+            android:layout_below="@id/lblName"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[              ]"
+            android:textColor="#ffff"
+            android:layout_toRightOf="@id/tVPoint"
+            android:layout_alignBaseline="@id/tVPoint"
+            android:layout_marginLeft="40dp"
+            android:textSize="25dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rank"
+                android:textSize="35dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorAccent"/>
+
+                <Button
+                    android:id="@+id/btnTranfer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-->"
+                    android:textSize="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+
+</RelativeLayout>

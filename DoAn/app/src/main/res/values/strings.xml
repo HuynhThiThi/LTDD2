@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project</string>
+<string name="start">Start</string>
+
+<string name="mode">Mode</string>
+
+<string name="hight">Hight score</string>
+
+<string name="rank">Rank</string>
+
+<string name="guide">Guide</string>
+</resources>
